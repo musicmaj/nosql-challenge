@@ -1,2 +1,7 @@
 # nosql-challenge
 Module 12 Challenge
+This challenge is called a NoSQL Challenge and utilizes MongoDB to load a data collection. My tutor, Anna Poulakos, helped me to download a Docker Desktop, so my data was loaded slightly different into the Jupyter Notebook, but it was able to be loaded for set up and analysis for this project.
+After the collection and database was loaded, I added in a new business to the database along with the ID and Type. Establishments at a certain location of 'Dover' were removed, and latitude, longitude, and the Rating Value were all changed to numbers in place of Strings.
+In the Exploratory Analysis Notebook, Rating Numbers were kept in order to search for higher-rated restaurants. It was noted that while higher ratings (1-5) are better for the RatingValue, but that higher values for Hygiene, Structural, and Confidence in Management work in reverse and are actually worse ratings if the value is higher.
+This notebook answers questions for the worst and best hygiene ratings, establishments in London that have a rating value greater than or equal to 4, and the top 5 establishments near the newest restaurant added, "Penang Flavours".
+I received tutoring from Anna Poulakos to get the database loaded, and I utilized suggestions and starter code shared from Alexander Booth.
